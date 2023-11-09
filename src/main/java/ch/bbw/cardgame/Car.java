@@ -11,12 +11,14 @@ public class Car {
     private String tradeName;
     private String model;
     private double prize;
+    private int BuildYear;
 
-    public Car(String imageUrl, String tradeName, String model, double prize) {
+    public Car(String imageUrl, String tradeName, String model, double prize, int BuildYear) {
         this.imageUrl = imageUrl;
         this.tradeName = tradeName;
         this.model = model;
         this.prize = prize;
+        this.BuildYear = BuildYear;
     }
 
     public String getImageUrl() {
@@ -50,4 +52,13 @@ public class Car {
     public void setPrize(double prize) {
         this.prize = prize;
     }
-}
+
+    public int getBuildYear() {
+        return BuildYear;
+    }
+
+    public void setBuildYear(int BuildYear) {
+        this.BuildYear = BuildYear;
+    }
+} 
+
