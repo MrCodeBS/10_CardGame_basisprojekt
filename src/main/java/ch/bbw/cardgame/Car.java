@@ -19,6 +19,7 @@ public class Car {
         this.model = model;
         this.prize = prize;
         this.BuildYear = BuildYear;
+        
     }
 
     public String getImageUrl() {
